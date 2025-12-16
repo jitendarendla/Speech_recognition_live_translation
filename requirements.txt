@@ -1,0 +1,8 @@
+flask
+torch
+openai-whisper
+transformers
+sentencepiece
+librosa
+soundfile
+numpy

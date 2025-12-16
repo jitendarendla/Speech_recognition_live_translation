@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translation History</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- Back Button -->
+<a href="/" class="history-corner">⬅ Back</a>
+
+<div class="history-container">
+    <h1>📜 Translation History</h1>
+
+    {% if history %}
+        <div class="history-cards">
+            {% for item in history %}
+                <div class="history-card">
+                    <div class="lang hi">🇮🇳 {{ item.hindi }}</div>
+                    <div class="lang en">🇬🇧 {{ item.english }}</div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="empty">No translations yet.</p>
+    {% endif %}
+</div>
+
+</body>
+</html>
