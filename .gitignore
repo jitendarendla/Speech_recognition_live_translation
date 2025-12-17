@@ -1,18 +1,14 @@
-# Virtual environment
+# Ignore virtual environment
 venv/
 
-# Python cache
+# Ignore datasets and audio
+Datasets/
+uploads/
+input.wav
+
+# Ignore cache
 __pycache__/
 *.pyc
 
-# Audio files
-*.wav
-*.mp3
-
-# Datasets
-Datasets/
-uploads/
-
-# OS files
+# Ignore OS files
 .DS_Store
-Thumbs.db
