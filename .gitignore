@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Large data folders
+datasets/
+prepared_dataset/
+trained_model/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Audio files
+*.wav
+*.mp3
+
+# OS files
+.DS_Store
